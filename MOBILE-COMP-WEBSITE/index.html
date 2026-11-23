@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071a30">
+  <meta name="description" content="MOBILE-COMP adalah solusi local web untuk monitoring dan control kompresor melalui jaringan lokal perusahaan. Pantau parameter operasi dari PC dan perangkat mobile.">
+  <meta name="keywords" content="MOBILE-COMP, compressor monitoring, compressor control, industrial monitoring, Modbus, RS485, local web">
+  <title>MOBILE-COMP | Industrial Compressor Monitoring & Control</title>
+  <link rel="icon" href="assets/mobile-comp-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="MOBILE-COMP Beranda">
+        <img src="assets/mobile-comp-mark.svg" alt="" width="42" height="42">
+        <span><strong>MOBILE-COMP</strong><small>INDUSTRIAL MONITORING SOLUTION</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
+        <a href="#about">Tentang</a>
+        <a href="#features">Fitur</a>
+        <a href="#workflow">Cara Kerja</a>
+        <a href="#advantages">Keunggulan</a>
+        <a href="#implementation">Implementasi</a>
+        <a class="nav-cta" href="#features">Jelajahi Produk <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> INDUSTRIAL MONITORING &amp; CONTROL</div>
+          <h1>Monitoring dan control kompresor <em>dalam satu platform.</em></h1>
+          <p class="hero-lead">MOBILE-COMP menyatukan pemantauan parameter operasi dan fungsi pengendalian kompresor melalui local web yang dapat diakses dari PC maupun perangkat mobile pada jaringan lokal perusahaan.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#features">Jelajahi Fitur <span>↗</span></a>
+            <a class="btn btn-ghost" href="#workflow">Lihat Cara Kerja <span>↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><i class="meta-check">✓</i> Local Web</span>
+            <span><i class="meta-check">✓</i> RS485 &amp; Modbus</span>
+            <span><i class="meta-check">✓</i> PC &amp; Mobile</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal reveal-delay">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="visual-label"><span class="live-dot"></span> PRODUCT INTERFACE</div>
+          <div class="dashboard-frame">
+            <div class="window-bar"><span></span><span></span><span></span><b>MOBILE-COMP · CONTROL COMPRESSOR</b><i>LOCAL WEB</i></div>
+            <img src="assets/dashboard-implementasi-redacted.png" alt="Tampilan dashboard implementasi MOBILE-COMP dengan data operasional yang disamarkan">
+            <div class="dashboard-caption"><span class="caption-dot"></span> Tampilan implementasi produk</div>
+          </div>
+          <div class="float-chip chip-top"><span class="chip-icon">◉</span><span><b>Centralized</b><small>Monitoring</small></span></div>
+          <div class="float-chip chip-bottom"><span class="chip-icon chip-blue">⌁</span><span><b>Local Network</b><small>PC &amp; Mobile Access</small></span></div>
+        </div>
+      </div>
+      <div class="hero-bottom-line"></div>
+    </section>
+
+    <section class="signal-strip">
+      <div class="container signal-grid">
+        <div><span class="signal-number">01</span><span><b>Centralized View</b><small>Monitoring beberapa unit</small></span></div>
+        <div><span class="signal-number">02</span><span><b>Operational Data</b><small>Parameter dan histori mesin</small></span></div>
+        <div><span class="signal-number">03</span><span><b>Control Functions</b><small>Manual dan mode otomatis</small></span></div>
+        <div><span class="signal-number">04</span><span><b>Local Network</b><small>Akses melalui browser</small></span></div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="container about-layout">
+        <div class="section-heading reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> MENGENAL MOBILE-COMP</div>
+          <h2>Satu antarmuka untuk visibilitas operasional yang lebih baik.</h2>
+        </div>
+        <div class="about-copy reveal reveal-delay">
+          <p class="lead-copy"><strong>MOBILE-COMP</strong> (Mobile Control &amp; Monitoring of Compressors) merupakan sistem berbasis local web yang dirancang untuk memusatkan pemantauan dan pengendalian kompresor.</p>
+          <p>Data dari controller kompresor diteruskan melalui komunikasi RS485-to-Ethernet ke jaringan lokal. Informasi operasional kemudian ditampilkan melalui dashboard yang dapat dibuka menggunakan browser pada PC maupun perangkat mobile yang terhubung ke jaringan tersebut.</p>
+          <div class="about-note"><span class="note-mark">i</span><span>Dirancang untuk membantu personel memperoleh informasi kondisi kompresor secara lebih terintegrasi tanpa harus selalu melakukan pengecekan pada setiap controller secara terpisah.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section problem-section">
+      <div class="container">
+        <div class="center-heading reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> TANTANGAN OPERASIONAL</div>
+          <h2>Ketika informasi mesin tersebar,<br><em>pemantauan menjadi kurang praktis.</em></h2>
+          <p>Pengelolaan beberapa unit kompresor membutuhkan visibilitas data yang mudah diakses dan dipahami.</p>
+        </div>
+        <div class="problem-grid">
+          <article class="problem-card reveal">
+            <div class="problem-index">01</div>
+            <div class="problem-icon">⌖</div>
+            <h3>Monitoring Terpisah</h3>
+            <p>Informasi kondisi mesin tersedia pada controller masing-masing unit, sehingga pemantauan keseluruhan belum terpusat.</p>
+          </article>
+          <article class="problem-card reveal reveal-delay">
+            <div class="problem-index">02</div>
+            <div class="problem-icon">↗</div>
+            <h3>Pengecekan Lokal</h3>
+            <p>Personel perlu menuju lokasi kompresor untuk memeriksa parameter dan status operasi secara langsung.</p>
+          </article>
+          <article class="problem-card reveal reveal-delay-2">
+            <div class="problem-index">03</div>
+            <div class="problem-icon">◷</div>
+            <h3>Visibilitas Terbatas</h3>
+            <p>Data yang belum terintegrasi membuat evaluasi pola operasi dan identifikasi kondisi abnormal menjadi kurang praktis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section feature-section" id="features">
+      <div class="container">
+        <div class="section-topline reveal">
+          <div class="section-heading">
+            <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> FITUR UTAMA</div>
+            <h2>Informasi penting kompresor,<br><em>tersaji dalam satu dashboard.</em></h2>
+          </div>
+          <p class="section-sidecopy">MOBILE-COMP menggabungkan fungsi monitoring dan control untuk mendukung pemantauan kondisi serta pengelolaan operasi kompresor.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M3 12h3l2-7 4 14 3-9 2 2h4"/></svg></div>
+            <span class="feature-tag">MONITORING</span>
+            <h3>Pressure &amp; Temperature</h3>
+            <p>Pantau parameter tekanan P1/P2 dan temperatur T1/T2 untuk melihat kondisi operasi kompresor.</p>
+            <span class="feature-arrow">↗</span>
+          </article>
+          <article class="feature-card reveal reveal-delay">
+            <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4zM8 10h8M8 14h4"/></svg></div>
+            <span class="feature-tag">MONITORING</span>
+            <h3>Machine Status &amp; Condition</h3>
+            <p>Lihat status mesin dan condition setiap unit yang telah terintegrasi pada sistem.</p>
+            <span class="feature-arrow">↗</span>
+          </article>
+          <article class="feature-card reveal reveal-delay-2">
+            <div class="feature-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 7v5l3 2"/></svg></div>
+            <span class="feature-tag">MONITORING</span>
+            <h3>Running &amp; Loading Hours</h3>
+            <p>Amati counter waktu operasi dan waktu pembebanan untuk membantu evaluasi pola kerja.</p>
+            <span class="feature-arrow">↗</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M12 3 3.5 19h17L12 3Z"/><path d="M12 9v4m0 3h.01"/></svg></div>
+            <span class="feature-tag">MONITORING</span>
+            <h3>Alarm History</h3>
+            <p>Akses riwayat alarm untuk membantu personel meninjau kejadian dan kondisi abnormal.</p>
+            <span class="feature-arrow">↗</span>
+          </article>
+          <article class="feature-card reveal reveal-delay">
+            <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg></div>
+            <span class="feature-tag">INTEGRATED VIEW</span>
+            <h3>Centralized Dashboard</h3>
+            <p>Informasi dari beberapa kompresor yang terhubung dapat dilihat melalui satu antarmuka.</p>
+            <span class="feature-arrow">↗</span>
+          </article>
+          <article class="feature-card reveal reveal-delay-2">
+            <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7L8 5Z"/></svg></div>
+            <span class="feature-tag">CONTROL</span>
+            <h3>Manual Control</h3>
+            <p>Jalankan fungsi Start, Unload, dan Stop melalui antarmuka sesuai dukungan controller.</p>
+            <span class="feature-arrow">↗</span>
+          </article>
+          <article class="feature-card reveal">
+            <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.3-5.7L4 8.5"/><path d="M4 4v4.5h4.5"/></svg></div>
+            <span class="feature-tag">AUTOMATION</span>
+            <h3>Auto Mode</h3>
+            <p>Dukung pengaturan operasi otomatis melalui fungsi Auto Start dan Auto Stop.</p>
+            <span class="feature-arrow">↗</span>
+          </article>
+          <article class="feature-card reveal reveal-delay">
+            <div class="feature-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="13" height="11" rx="1.5"/><path d="M7 19h5m-2-4v4"/><rect x="17" y="9" width="4" height="10" rx="1"/></svg></div>
+            <span class="feature-tag">ACCESS</span>
+            <h3>PC &amp; Mobile Browser</h3>
+            <p>Buka dashboard melalui browser pada PC atau perangkat mobile di jaringan lokal perusahaan.</p>
+            <span class="feature-arrow">↗</span>
+          </article>
+        </div>
+        <div class="feature-footnote"><span>i</span> Ketersediaan setiap parameter dan fungsi kontrol mengikuti kemampuan controller serta konfigurasi pada instalasi terkait.</div>
+      </div>
+    </section>
+
+    <section class="section workflow-section" id="workflow">
+      <div class="container">
+        <div class="section-topline reveal">
+          <div class="section-heading">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> ARSITEKTUR SISTEM</div>
+            <h2>Terhubung melalui<br><em>jaringan lokal perusahaan.</em></h2>
+          </div>
+          <p class="section-sidecopy">Data controller diteruskan melalui interface komunikasi menuju MOBILE-COMP, lalu ditampilkan pada browser pengguna yang berada di jaringan lokal.</p>
+        </div>
+        <div class="architecture-card reveal">
+          <div class="architecture-heading"><span>ALUR KOMUNIKASI MOBILE-COMP</span><span class="lan-pill"><i></i> LOCAL NETWORK</span></div>
+          <img src="assets/architecture-flow.svg" alt="Diagram alur komunikasi dari controller kompresor, RS485 Modbus RTU, converter RS485-to-Ethernet, jaringan lokal, aplikasi MOBILE-COMP, hingga browser PC dan mobile">
+          <div class="architecture-legend">
+            <span><i class="legend-blue"></i> Alur data monitoring</span>
+            <span><i class="legend-green"></i> Jaringan lokal</span>
+            <span><i class="legend-orange"></i> Jalur perintah kontrol</span>
+          </div>
+        </div>
+        <div class="workflow-steps">
+          <div class="workflow-step reveal"><span>01</span><b>Controller</b><small>Data parameter dan fungsi kontrol pada kompresor</small></div>
+          <div class="workflow-step reveal reveal-delay"><span>02</span><b>RS485 / Modbus RTU</b><small>Komunikasi serial dari controller</small></div>
+          <div class="workflow-step reveal reveal-delay-2"><span>03</span><b>Ethernet Gateway</b><small>Konversi komunikasi menuju jaringan Ethernet</small></div>
+          <div class="workflow-step reveal reveal-delay-3"><span>04</span><b>Local Web</b><small>Dashboard MOBILE-COMP pada jaringan lokal</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section advantages-section" id="advantages">
+      <div class="container advantages-layout">
+        <div class="advantages-intro reveal">
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> KEUNGGULAN OPERASIONAL</div>
+          <h2>Lebih terintegrasi.<br><em>Lebih mudah dipantau.</em></h2>
+          <p>MOBILE-COMP dirancang untuk membantu personel memperoleh informasi operasional secara lebih praktis dan terstruktur.</p>
+          <a class="text-link" href="#implementation">Lihat bukti penerapan <span>↗</span></a>
+        </div>
+        <div class="advantages-list">
+          <article class="advantage-item reveal"><span class="advantage-check">✓</span><div><h3>Informasi dalam satu tampilan</h3><p>Memusatkan data beberapa unit kompresor yang terhubung pada satu antarmuka monitoring.</p></div></article>
+          <article class="advantage-item reveal reveal-delay"><span class="advantage-check">✓</span><div><h3>Mengurangi pengecekan lokal berulang</h3><p>Personel dapat melihat parameter dari perangkat yang terhubung ke jaringan lokal tanpa selalu mendatangi controller.</p></div></article>
+          <article class="advantage-item reveal reveal-delay-2"><span class="advantage-check">✓</span><div><h3>Mendukung respons operasional</h3><p>Akses status mesin dan riwayat alarm membantu proses identifikasi kondisi serta pengambilan keputusan.</p></div></article>
+          <article class="advantage-item reveal reveal-delay-3"><span class="advantage-check">✓</span><div><h3>Mendukung evaluasi pola operasi</h3><p>Data Running Hours, Loading Hours, tekanan, dan status operasi dapat digunakan sebagai bahan evaluasi.</p></div></article>
+          <article class="advantage-item reveal"><span class="advantage-check">✓</span><div><h3>Memanfaatkan interface controller</h3><p>Integrasi dapat memanfaatkan jalur komunikasi yang tersedia pada controller setelah pemeriksaan kompatibilitas.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section implementation-section" id="implementation">
+      <div class="container">
+        <div class="section-topline reveal">
+          <div class="section-heading">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> BUKTI PENERAPAN</div>
+            <h2>Dibangun dari kebutuhan<br><em>operasional industri.</em></h2>
+          </div>
+          <p class="section-sidecopy">MOBILE-COMP telah diterapkan pada empat unit kompresor Sullair dalam studi implementasi yang didokumentasikan pada 2026.</p>
+        </div>
+        <div class="implementation-card reveal">
+          <div class="implementation-image">
+            <img src="assets/dashboard-implementasi-redacted.png" alt="Dashboard MOBILE-COMP dari implementasi empat unit kompresor Sullair, dengan data operasional disamarkan">
+            <span class="image-stamp"><i></i> IMPLEMENTATION INTERFACE</span>
+          </div>
+          <div class="implementation-copy">
+            <span class="implementation-label">IMPLEMENTATION SNAPSHOT</span>
+            <h3>Monitoring beberapa unit melalui satu dashboard.</h3>
+            <p>Tampilan ini berasal dari dokumentasi implementasi MOBILE-COMP. Informasi operasional yang bersifat spesifik telah disamarkan untuk kebutuhan publikasi.</p>
+            <div class="implementation-facts">
+              <div><b>4 Unit</b><small>Kompresor Sullair pada studi implementasi</small></div>
+              <div><b>PC &amp; Mobile</b><small>Akses antarmuka melalui browser pada LAN</small></div>
+              <div><b>Monitoring + Control</b><small>Fungsi sesuai dukungan controller</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="compatibility-note reveal">
+          <div class="compatibility-icon">i</div>
+          <div><b>Catatan kompatibilitas dan implementasi</b><p>Penerapan pada tipe atau merek kompresor lain memerlukan pemeriksaan controller, protokol komunikasi, register mapping, jaringan, dan validasi fungsi. Pengoperasian tetap harus mengikuti kewenangan personel, SOP, serta ketentuan keselamatan di fasilitas masing-masing.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-cta">
+      <div class="container closing-inner reveal">
+        <div>
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> MOBILE-COMP</div>
+          <h2>Kenali kondisi kompresor<br><em>melalui satu platform.</em></h2>
+          <p>Solusi monitoring dan control berbasis local web untuk mendukung visibilitas operasional sistem kompresor.</p>
+        </div>
+        <a class="btn btn-primary btn-large" href="#features">Jelajahi Fitur <span>↑</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand brand-footer" href="#top">
+        <img src="assets/mobile-comp-mark.svg" alt="" width="42" height="42">
+        <span><strong>MOBILE-COMP</strong><small>INDUSTRIAL MONITORING SOLUTION</small></span>
+      </a>
+      <p>Mobile Control &amp; Monitoring of Compressors<br><span>Local Web · Monitoring · Control</span></p>
+      <a class="back-top" href="#top">Kembali ke atas ↑</a>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> MOBILE-COMP. Product information.</span>
+      <span>Materi disusun berdasarkan dokumentasi implementasi MOBILE-COMP 2026.</span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
