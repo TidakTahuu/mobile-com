@@ -4,9 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#071a30">
-  <meta name="description" content="MOBILE-COMP adalah solusi local web untuk monitoring dan control kompresor melalui jaringan lokal perusahaan. Pantau parameter operasi dari PC dan perangkat mobile.">
-  <meta name="keywords" content="MOBILE-COMP, compressor monitoring, compressor control, industrial monitoring, Modbus, RS485, local web">
-  <title>MOBILE-COMP | Industrial Compressor Monitoring & Control</title>
+  <meta name="description" content="MOBILE-COMP memusatkan monitoring dan pengendalian kompresor melalui local web pada jaringan lokal perusahaan. Pantau parameter operasi dan akses fungsi kontrol dari PC maupun perangkat mobile.">
+  <meta name="keywords" content="MOBILE-COMP, monitoring kompresor, pengendalian kompresor, industrial monitoring, Modbus RTU, Modbus TCP, RS485, local web">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://tidaktahuu.github.io/mobile-com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MOBILE-COMP | Monitoring & Pengendalian Kompresor">
+  <meta property="og:description" content="Satu platform local web untuk memantau parameter dan mendukung pengendalian kompresor pada jaringan lokal perusahaan.">
+  <meta property="og:url" content="https://tidaktahuu.github.io/mobile-com/">
+  <meta property="og:image" content="https://tidaktahuu.github.io/mobile-com/assets/og-mobile-comp.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>MOBILE-COMP | Monitoring & Pengendalian Kompresor</title>
   <link rel="icon" href="assets/mobile-comp-mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,7 +26,7 @@
         <img src="assets/mobile-comp-mark.svg" alt="" width="42" height="42">
         <span><strong>MOBILE-COMP</strong><small>INDUSTRIAL MONITORING SOLUTION</small></span>
       </a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Buka navigasi" aria-controls="mainNav" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
@@ -38,8 +46,8 @@
       <div class="container hero-layout">
         <div class="hero-copy reveal">
           <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> INDUSTRIAL MONITORING &amp; CONTROL</div>
-          <h1>Monitoring dan control kompresor <em>dalam satu platform.</em></h1>
-          <p class="hero-lead">MOBILE-COMP menyatukan pemantauan parameter operasi dan fungsi pengendalian kompresor melalui local web yang dapat diakses dari PC maupun perangkat mobile pada jaringan lokal perusahaan.</p>
+          <h1>Monitoring dan pengendalian kompresor <em>dalam satu platform.</em></h1>
+          <p class="hero-lead">MOBILE-COMP memusatkan pemantauan parameter operasi dan fungsi pengendalian kompresor melalui local web yang dapat diakses dari PC maupun perangkat mobile pada jaringan lokal perusahaan.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#features">Jelajahi Fitur <span>↗</span></a>
             <a class="btn btn-ghost" href="#workflow">Lihat Cara Kerja <span>↓</span></a>
@@ -53,11 +61,64 @@
         <div class="hero-visual reveal reveal-delay">
           <div class="visual-orbit orbit-one"></div>
           <div class="visual-orbit orbit-two"></div>
-          <div class="visual-label"><span class="live-dot"></span> PRODUCT INTERFACE</div>
-          <div class="dashboard-frame">
-            <div class="window-bar"><span></span><span></span><span></span><b>MOBILE-COMP · CONTROL COMPRESSOR</b><i>LOCAL WEB</i></div>
-            <img src="assets/dashboard-implementasi-redacted.png" alt="Tampilan dashboard implementasi MOBILE-COMP dengan data operasional yang disamarkan">
-            <div class="dashboard-caption"><span class="caption-dot"></span> Tampilan implementasi produk</div>
+          <div class="visual-label"><span class="live-dot"></span> PRODUCT INTERFACE CONCEPT</div>
+          <div class="dashboard-frame dashboard-concept" aria-label="Ilustrasi konsep antarmuka MOBILE-COMP. Bukan dashboard aktif dan bukan data operasional aktual.">
+            <div class="window-bar"><span></span><span></span><span></span><b>MOBILE-COMP · COMPRESSOR OVERVIEW</b><i>ILUSTRASI UI</i></div>
+            <div class="concept-shell">
+              <aside class="concept-sidebar" aria-hidden="true">
+                <div class="concept-sidebar-mark">MC</div>
+                <span class="concept-side-item is-active">Overview</span>
+                <span class="concept-side-item">Monitoring</span>
+                <span class="concept-side-item">Alarm History</span>
+                <span class="concept-side-item">Control</span>
+                <div class="concept-side-foot"><i></i> LOCAL LAN</div>
+              </aside>
+              <div class="concept-main">
+                <div class="concept-heading">
+                  <div><small>OVERVIEW / MONITORING</small><h3>Compressor overview</h3></div>
+                  <span class="concept-network"><i></i> LOCAL NETWORK</span>
+                </div>
+                <div class="concept-unit-grid">
+                  <article class="concept-unit">
+                    <div class="concept-unit-heading"><div><small>UNIT 01</small><b>Compressor monitoring</b></div><span>UNIT VIEW</span></div>
+                    <div class="concept-metrics">
+                      <div><small>Pressure P1</small><b>—</b></div><div><small>Pressure P2</small><b>—</b></div>
+                      <div><small>Temperature T1</small><b>—</b></div><div><small>Temperature T2</small><b>—</b></div>
+                    </div>
+                    <div class="concept-unit-footer"><span>Running Hours · Loading Hours</span><b>DETAIL</b></div>
+                  </article>
+                  <article class="concept-unit">
+                    <div class="concept-unit-heading"><div><small>UNIT 02</small><b>Compressor monitoring</b></div><span>UNIT VIEW</span></div>
+                    <div class="concept-metrics">
+                      <div><small>Pressure P1</small><b>—</b></div><div><small>Pressure P2</small><b>—</b></div>
+                      <div><small>Temperature T1</small><b>—</b></div><div><small>Temperature T2</small><b>—</b></div>
+                    </div>
+                    <div class="concept-unit-footer"><span>Running Hours · Loading Hours</span><b>DETAIL</b></div>
+                  </article>
+                  <article class="concept-unit concept-unit-secondary">
+                    <div class="concept-unit-heading"><div><small>UNIT 03</small><b>Compressor monitoring</b></div><span>UNIT VIEW</span></div>
+                    <div class="concept-metrics">
+                      <div><small>Pressure P1</small><b>—</b></div><div><small>Pressure P2</small><b>—</b></div>
+                      <div><small>Temperature T1</small><b>—</b></div><div><small>Temperature T2</small><b>—</b></div>
+                    </div>
+                    <div class="concept-unit-footer"><span>Running Hours · Loading Hours</span><b>DETAIL</b></div>
+                  </article>
+                  <article class="concept-unit concept-unit-secondary">
+                    <div class="concept-unit-heading"><div><small>UNIT 04</small><b>Compressor monitoring</b></div><span>UNIT VIEW</span></div>
+                    <div class="concept-metrics">
+                      <div><small>Pressure P1</small><b>—</b></div><div><small>Pressure P2</small><b>—</b></div>
+                      <div><small>Temperature T1</small><b>—</b></div><div><small>Temperature T2</small><b>—</b></div>
+                    </div>
+                    <div class="concept-unit-footer"><span>Running Hours · Loading Hours</span><b>DETAIL</b></div>
+                  </article>
+                </div>
+                <div class="concept-bottom-row">
+                  <div class="concept-history"><b>Alarm History</b><small>Riwayat alarm ditampilkan pada bagian ini</small></div>
+                  <div class="concept-controls" aria-label="Contoh fungsi kontrol, bukan tombol aktif"><span>START</span><span>UNLOAD</span><span>STOP</span><span>AUTO MODE</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="dashboard-caption"><span class="caption-dot"></span> Ilustrasi antarmuka · bukan sistem aktif atau data aktual</div>
           </div>
           <div class="float-chip chip-top"><span class="chip-icon">◉</span><span><b>Centralized</b><small>Monitoring</small></span></div>
           <div class="float-chip chip-bottom"><span class="chip-icon chip-blue">⌁</span><span><b>Local Network</b><small>PC &amp; Mobile Access</small></span></div>
@@ -70,7 +131,7 @@
       <div class="container signal-grid">
         <div><span class="signal-number">01</span><span><b>Centralized View</b><small>Monitoring beberapa unit</small></span></div>
         <div><span class="signal-number">02</span><span><b>Operational Data</b><small>Parameter dan histori mesin</small></span></div>
-        <div><span class="signal-number">03</span><span><b>Control Functions</b><small>Manual dan mode otomatis</small></span></div>
+        <div><span class="signal-number">03</span><span><b>Control Functions</b><small>Start, Unload, Stop, Auto Mode</small></span></div>
         <div><span class="signal-number">04</span><span><b>Local Network</b><small>Akses melalui browser</small></span></div>
       </div>
     </section>
@@ -175,7 +236,7 @@
             <div class="feature-icon"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.3-5.7L4 8.5"/><path d="M4 4v4.5h4.5"/></svg></div>
             <span class="feature-tag">AUTOMATION</span>
             <h3>Auto Mode</h3>
-            <p>Dukung pengaturan operasi otomatis melalui fungsi Auto Start dan Auto Stop.</p>
+            <p>Akses fungsi Auto Mode yang telah dipetakan pada controller kompresor yang terhubung.</p>
             <span class="feature-arrow">↗</span>
           </article>
           <article class="feature-card reveal reveal-delay">
@@ -201,12 +262,15 @@
         </div>
         <div class="architecture-card reveal">
           <div class="architecture-heading"><span>ALUR KOMUNIKASI MOBILE-COMP</span><span class="lan-pill"><i></i> LOCAL NETWORK</span></div>
-          <img src="assets/architecture-flow.svg" alt="Diagram alur komunikasi dari controller kompresor, RS485 Modbus RTU, converter RS485-to-Ethernet, jaringan lokal, aplikasi MOBILE-COMP, hingga browser PC dan mobile">
+          <div class="architecture-scroll" tabindex="0" role="region" aria-label="Diagram arsitektur MOBILE-COMP. Pada layar kecil, geser ke samping untuk membaca seluruh diagram.">
+            <img src="assets/architecture-flow.svg" alt="Diagram alur komunikasi: controller kompresor, RS485 Modbus RTU, converter RS485-to-Ethernet, Ethernet Modbus TCP pada jaringan lokal, MOBILE-COMP, dan browser PC atau mobile">
+          </div>
           <div class="architecture-legend">
-            <span><i class="legend-blue"></i> Alur data monitoring</span>
-            <span><i class="legend-green"></i> Jaringan lokal</span>
+            <span><i class="legend-blue"></i> Jalur komunikasi data</span>
+            <span><i class="legend-green"></i> Jaringan lokal perusahaan</span>
             <span><i class="legend-orange"></i> Jalur perintah kontrol</span>
           </div>
+          <p class="architecture-hint">Geser diagram ke samping untuk melihat seluruh tahapan komunikasi.</p>
         </div>
         <div class="workflow-steps">
           <div class="workflow-step reveal"><span>01</span><b>Controller</b><small>Data parameter dan fungsi kontrol pada kompresor</small></div>
@@ -255,8 +319,9 @@
             <p>Tampilan ini berasal dari dokumentasi implementasi MOBILE-COMP. Informasi operasional yang bersifat spesifik telah disamarkan untuk kebutuhan publikasi.</p>
             <div class="implementation-facts">
               <div><b>4 Unit</b><small>Kompresor Sullair pada studi implementasi</small></div>
+              <div><b>110 kW / unit</b><small>Kapasitas kompresor pada unit uji coba</small></div>
               <div><b>PC &amp; Mobile</b><small>Akses antarmuka melalui browser pada LAN</small></div>
-              <div><b>Monitoring + Control</b><small>Fungsi sesuai dukungan controller</small></div>
+              <div><b>Monitoring + Control</b><small>Start, Unload, Stop, dan Auto Mode sesuai mapping</small></div>
             </div>
           </div>
         </div>
@@ -264,6 +329,7 @@
           <div class="compatibility-icon">i</div>
           <div><b>Catatan kompatibilitas dan implementasi</b><p>Penerapan pada tipe atau merek kompresor lain memerlukan pemeriksaan controller, protokol komunikasi, register mapping, jaringan, dan validasi fungsi. Pengoperasian tetap harus mengikuti kewenangan personel, SOP, serta ketentuan keselamatan di fasilitas masing-masing.</p></div>
         </div>
+        <div class="product-boundary-note reveal"><span class="boundary-icon">i</span><p><strong>Informasi penting:</strong> halaman ini merupakan website informasi produk. Sistem operasional MOBILE-COMP berjalan pada jaringan lokal yang dikonfigurasi di fasilitas pengguna, bukan melalui dashboard publik pada website ini.</p></div>
       </div>
     </section>
 
@@ -285,7 +351,7 @@
         <img src="assets/mobile-comp-mark.svg" alt="" width="42" height="42">
         <span><strong>MOBILE-COMP</strong><small>INDUSTRIAL MONITORING SOLUTION</small></span>
       </a>
-      <p>Mobile Control &amp; Monitoring of Compressors<br><span>Local Web · Monitoring · Control</span></p>
+      <p>Mobile Control &amp; Monitoring of Compressors<br><span>Local Web · Monitoring · Pengendalian</span></p>
       <a class="back-top" href="#top">Kembali ke atas ↑</a>
     </div>
     <div class="container footer-bottom">

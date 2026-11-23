@@ -1,35 +1,49 @@
 # MOBILE-COMP Corporate Website
 
-Website promosi statis untuk produk MOBILE-COMP (Mobile Control & Monitoring of Compressors).
+Website promosi statis untuk MOBILE-COMP (Mobile Control & Monitoring of Compressors).
 
-## Isi paket
-- `index.html` — halaman website utama
-- `styles.css` — desain responsif corporate industrial
-- `script.js` — navigasi mobile dan animasi ringan
-- `assets/` — logo mark, diagram arsitektur, dan screenshot dashboard implementasi yang telah disamarkan
+## Struktur paket
+- `index.html` — halaman promosi utama.
+- `styles.css` — desain corporate responsif untuk desktop, tablet, dan mobile.
+- `script.js` — navigasi mobile yang aksesibel dan animasi ringan.
+- `assets/mobile-comp-mark.svg` — logo mark MOBILE-COMP.
+- `assets/architecture-flow.svg` — diagram komunikasi sistem.
+- `assets/dashboard-implementasi-redacted.png` — dokumentasi dashboard implementasi dengan informasi operasional yang disamarkan.
+- `assets/og-mobile-comp.png` — gambar pratinjau saat tautan website dibagikan.
+- `.nojekyll` — membantu GitHub Pages menyajikan aset statis tanpa pemrosesan Jekyll.
 
 ## Menjalankan secara lokal
-1. Ekstrak folder `MOBILE-COMP-WEBSITE`.
-2. Buka `index.html` menggunakan browser.
-3. Tidak memerlukan instalasi, database, server, atau file konfigurasi tambahan.
+1. Ekstrak ZIP.
+2. Buka `index.html` dengan browser, atau jalankan server lokal sederhana.
+3. Tidak membutuhkan database, API key, framework, atau biaya layanan tambahan.
 
-## Publikasi gratis dengan GitHub Pages
-1. Masuk atau buat akun di https://github.com/.
-2. Buat repository baru, misalnya `mobile-comp-website`. Pilih **Public**.
-3. Unggah seluruh isi folder ini ke root repository. Pastikan `index.html`, `styles.css`, `script.js`, dan folder `assets` berada di root.
-4. Buka **Settings → Pages** pada repository.
-5. Pada bagian **Build and deployment**, pilih **Deploy from a branch**.
-6. Pilih branch `main` dan folder `/ (root)`, lalu klik **Save**.
-7. Tunggu proses publikasi selesai. GitHub akan menampilkan alamat website dengan format `https://USERNAME.github.io/mobile-comp-website/`.
+## Memperbarui repository GitHub yang sudah ada
+1. Unduh dan ekstrak paket ZIP ini.
+2. Buka repository `TidakTahuu/mobile-com` di GitHub.
+3. Pilih `Add file` → `Upload files`.
+4. Unggah isi folder `MOBILE-COMP-WEBSITE` ke direktori utama repository. Jangan mengunggah folder pembungkusnya sebagai satu folder bertingkat.
+5. Pastikan `index.html`, `styles.css`, `script.js`, `.nojekyll`, dan folder `assets` terlihat di direktori utama.
+6. Klik `Commit changes`.
+7. Buka tab `Actions` atau `Deployments` dan tunggu proses `github-pages` selesai.
+8. Muat ulang website publik setelah deployment berhasil.
 
-GitHub Pages dapat digunakan untuk hosting website statis pada repository publik tanpa biaya hosting. Nama domain khusus (custom domain) bersifat opsional dan biasanya memerlukan pembelian domain.
+**Penting:** Jangan menghapus file lain yang tidak terkait dengan website. Jika GitHub menampilkan konflik nama file, periksa dahulu isi file sebelum memilih overwrite.
 
-## Catatan konten
-- Website tidak memuat harga, biaya implementasi, ROI, atau kalkulator finansial.
-- Sistem yang dipromosikan adalah local web pada jaringan lokal perusahaan, bukan layanan cloud atau akses internet publik.
-- Screenshot dashboard berasal dari dokumen implementasi dan nilai operasional serta label lokasi telah disamarkan untuk kebutuhan publikasi.
-- Kompatibilitas dengan controller atau merek lain tetap memerlukan pemeriksaan dan validasi teknis.
-- Kontak resmi belum dimasukkan karena nomor telepon dan email belum diberikan.
+## Konten produk yang dicantumkan
+Informasi fitur dan arsitektur mengikuti dokumen implementasi yang diberikan:
+- Integrasi awal pada empat unit kompresor Sullair berkapasitas 110 kW per unit.
+- Komunikasi controller melalui RS485 Modbus RTU dan perangkat RS485-to-Ethernet menuju Ethernet Modbus TCP.
+- Antarmuka local web pada jaringan lokal perusahaan, dapat diakses dari PC maupun perangkat mobile yang terhubung ke jaringan tersebut.
+- Parameter monitoring: P1, P2, T1, T2, condition, machine status, Running Hours, Loading Hours, dan Alarm History.
+- Fungsi kontrol yang dipetakan: Start, Unload, Stop, dan Auto Mode.
 
-## Penyesuaian berikutnya
-Jika ingin menambahkan identitas pengembang, logo resmi, nomor WhatsApp, email, atau domain, ubah konten di `index.html` dan aset di folder `assets`.
+## Catatan publikasi dan batasan
+- Website promosi ini bersifat publik, tetapi sistem operasional MOBILE-COMP berjalan pada jaringan lokal fasilitas pengguna. Website promosi tidak menyediakan akses ke sistem kontrol langsung.
+- Ilustrasi dashboard pada bagian hero merupakan ilustrasi antarmuka, bukan dashboard aktif dan bukan data operasional aktual.
+- Screenshot implementasi ditampilkan sebagai dokumentasi dengan informasi operasional yang disamarkan.
+- Kompatibilitas dengan controller atau merek kompresor lain memerlukan pemeriksaan protokol, register mapping, jaringan, dan validasi fungsi.
+- Tidak ada harga, ROI, penghematan energi terjamin, atau klaim keamanan yang ditambahkan.
+- Kontak WhatsApp/email belum ditambahkan karena detail kontak resmi belum diberikan.
+
+## Pembaruan berikutnya
+Sebelum menambahkan formulir prospek atau tombol WhatsApp, siapkan nomor dan email resmi yang boleh ditampilkan untuk publik.

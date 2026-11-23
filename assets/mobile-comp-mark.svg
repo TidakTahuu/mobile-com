@@ -1,7 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#54c8ff"/><stop offset="1" stop-color="#2675df"/></linearGradient></defs>
-<rect x="3" y="3" width="58" height="58" rx="17" fill="#102a49"/>
-<path d="M17 22h15a10 10 0 0 1 0 20H17V22Zm7 7v6h8a3 3 0 0 0 0-6h-8Z" fill="url(#g)"/>
-<path d="M42 22h6v20h-6z" fill="#fff" opacity=".92"/>
-<path d="M39 22h12v6H39z" fill="#fff" opacity=".92"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="MOBILE-COMP">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16456f"/><stop offset="1" stop-color="#071a30"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#69dcff"/><stop offset="1" stop-color="#328be8"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#bg)"/>
+  <path d="M17 38a15 15 0 0 1 30 0" fill="none" stroke="#dff4ff" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M32 31 42 21" fill="none" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="32" cy="31" r="3.3" fill="#68d9fa"/>
+  <path d="M15 43h34v8H15z" fill="url(#accent)"/>
+  <path d="M21 51v3m22-3v3M25 47h14" stroke="#eaf8ff" stroke-width="2" stroke-linecap="round"/>
 </svg>
